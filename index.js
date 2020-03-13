@@ -26,7 +26,7 @@ function currentLine(deliLine){
   else{
     let lineStatus = "The line is currently:";
     for (let i=0;i<deliLine.length;i++){
-      lineStatus += `${i+1}.${deliLine[i]},`;
+      lineStatus += ` ${i+1}. ${deliLine[i]},`;
     }
     let finalLineStatus = lineStatus.slice(0,lineStatus.length-1);
     return finalLineStatus;
